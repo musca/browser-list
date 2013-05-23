@@ -22,8 +22,8 @@ window.onload = function(){
       '  </a>' 
     );
 
-  	li.innerHTML += a;
+    li.innerHTML += a;
 
-	};
+  };
 
  };
