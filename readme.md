@@ -4,7 +4,7 @@
 
 The list is randomly shown so no browser is more than another
 
-- JS file smaller the 1K
+- JS file ~1K packed
 - JavaScript fallback
 - Easy to edit images, names and notes
 
