@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Browser Download page</title>
+  	<link rel="stylesheet" href="assets/stylesheets/index.css">
+  	<script type="">
+
+  		var browsers = [
+
+        {
+          name: "internet explorer",
+          url: "http://windows.microsoft.com/en-us/internet-explorer/download-ie",
+          imgSrc: "ie-128.png",
+          note: "Only for windows."
+        },
+
+  			{
+  				name: "chrome",
+  				url: "http://www.google.com/chrome/",
+  				imgSrc: "chrome-128.png"
+  			},
+
+        {
+          name: "firefox",
+          url: "http://www.mozilla.org/firefox/",
+          imgSrc: "firefox-128.png"
+        },
+
+  			{
+  				name: "safari",
+  				url: "http://support.apple.com/kb/DL1531",
+  				imgSrc: "safari-128.png",
+          note: "for windows"
+  			},
+
+  			{
+  				name: "opera",
+  				url: "http://www.opera.com/download/",
+  				imgSrc: "opera-128.png"
+  			}
+  			
+  		];
+  		
+  	</script>
+    <script src="assets/scripts/index.js"></script>
+  </head>
+  <body>
+    <h1>Download a newer browser from the list below.</h1>
+    <noscript>
+      <ul id="browsers">
+        <li>  
+          <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">    
+            <img src="/assets/images/ie-128.png" alt="internet explorer">    
+              <p>internet explorer</p>
+              <p class="notes">Only for windows.</p>
+            </a>
+        </li>
+        <li>  
+          <a href="http://www.google.com/chrome/">
+            <img src="/assets/images/chrome-128.png" alt="chrome">    
+            <p>chrome</p>    
+            <p class="notes">&nbsp;</p>  
+          </a>
+        </li>
+        <li>
+          <a href="http://www.mozilla.org/firefox/">
+            <img src="/assets/images/firefox-128.png" alt="firefox">
+            <p>firefox</p>
+            <p class="notes">&nbsp;</p>
+          </a>
+        </li>
+        <li>
+          <a href="http://support.apple.com/kb/DL1531">
+            <img src="/assets/images/safari-128.png" alt="safari">
+            <p>safari </p>
+            <p class="notes">for windows</p>
+          </a>
+        </li>
+        <li>  
+          <a href="http://www.opera.com/download/">
+            <img src="/assets/images/opera-128.png" alt="opera">
+            <p>opera</p>
+            <p class="notes">&nbsp;</p>
+          </a>
+        </li>
+      </ul>
+    </noscript>
+  </body>
+</html>

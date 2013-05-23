@@ -1,0 +1,32 @@
+body{
+  font: 62.5% 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+}
+h1, h2, ul, li{
+  text-align: center;
+}
+h1{
+  margin-top: 80px;
+  font-size: 4.8em;
+  font-weight: normal;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+li{
+  display: inline;
+  font-size: 2.1em;
+  padding: 10px;
+
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+p{
+  margin-bottom: 10px
+}
+.notes{
+  font-size: 0.6em;
+  color: #bbb;
+}
