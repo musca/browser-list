@@ -23,6 +23,9 @@ a{
   text-decoration: none;
   display: inline-block;
 }
+img{
+  border:none;
+}
 p{
   margin-bottom: 10px
 }

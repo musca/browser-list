@@ -1,5 +1,6 @@
 
 var browsers = [
+
   {
     name: "internet explorer",
     url: "http://windows.microsoft.com/en-us/internet-explorer/download-ie",
