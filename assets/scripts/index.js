@@ -35,12 +35,26 @@ var browsers = [
   
 ];
 
-browsers.sort(function() {return 0.5 - Math.random()});
+
+// Taken from http://coffeescriptcookbook.com
+var shuffle = function(a) {
+  var i, j, _i, _ref, _ref1;
+
+  for (i = _i = _ref = a.length - 1; _ref <= 1 ? _i <= 1 : _i >= 1; i = _ref <= 1 ? ++_i : --_i) {
+    j = Math.floor(Math.random() * (i + 1));
+    _ref1 = [a[j], a[i]], a[i] = _ref1[0], a[j] = _ref1[1];
+  }
+  return a;
+};
+
+shuffle(browsers);
 
 window.onload = function(){
 
   var ul = document.createElement('ul');
+
   ul.id = 'browsers';
+
   document.body.appendChild(ul);
 	
   for (var i = 0; i < browsers.length; i++) {
@@ -55,8 +69,8 @@ window.onload = function(){
       '    <p>'+browsers[i].name+'</p>' +
       '    <p class="notes">'+((browsers[i].note) ? browsers[i].note : '&nbsp;' )+'</p>' +
       '  </a>' 
-    )
+    );
 
   }
 
-}
+};
