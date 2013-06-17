@@ -1,10 +1,8 @@
 window.onload = function(){
 
-  browsers = []
-  
-  ul = document.getElementById("browsers");
-  
-  var items = ul.getElementsByTagName("li");
+  var browsers = [],
+      ul = document.getElementById("browsers"),
+      items = ul.getElementsByTagName("li");
 
   for (var i = 0; i < items.length; ++i) {
     browsers[i] = items[i].innerHTML
