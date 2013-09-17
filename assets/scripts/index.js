@@ -1,6 +1,7 @@
 window.onload = function(){
 
   var browsers = [],
+      html = [],
       ul = document.getElementById("browsers"),
       items = ul.getElementsByTagName("li");
 
@@ -25,13 +26,11 @@ window.onload = function(){
 
   for (var i = 0; i < browsers.length; i++) {
   	
-    var li = document.createElement('li');
-
-    ul.appendChild(li);
-
-    li.innerHTML = (browsers[i]);
+    html.push('<li>'+browsers[i]+'</li>');
 
   }
+
+  ul.innerHTML = html.join('');
 
   ul.setAttribute('class', '');
 
