@@ -8,7 +8,7 @@ The list is randomly shown so no browser is more than another
 - JavaScript fallback
 - Easy to edit images, names and notes
 
-[Demo site](http://musca.se/browser-list-demo/)
+[Demo site](http://musca.github.io/browser-list/)
 
 ![screen shot](http://musca.se/browser-list-demo/assets/images/ScreenShot.png)
 
