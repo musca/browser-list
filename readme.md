@@ -10,12 +10,12 @@ The list is randomly shown so no browser is more than another
 
 [Demo site](http://musca.se/browser-list-demo/)
 
-![screen shot](http://musca.se/browser-list-demo/assets/images/ScreenShot.png) 
+![screen shot](http://musca.se/browser-list-demo/assets/images/ScreenShot.png)
 
 ###In the list
 
 - http://windows.microsoft.com/en-us/internet-explorer/download-ie
-- http://www.google.com/chrome/
+- https://www.google.com/chrome/browser/desktop/
 - http://www.mozilla.org/firefox/
 - http://support.apple.com/kb/DL1531
 - http://www.opera.com/download/
