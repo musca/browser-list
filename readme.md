@@ -10,7 +10,7 @@ The list is randomly shown so no browser is more than another
 
 [Demo site](http://musca.github.io/browser-list/)
 
-![screen shot](http://musca.se/browser-list-demo/assets/images/ScreenShot.png)
+![screen shot](https://raw.githubusercontent.com/musca/browser-list/master/assets/images/screenshot.png)
 
 ###In the list
 
